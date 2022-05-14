@@ -1,0 +1,54 @@
+[22,27,16,2,18,6]
+
+Q1) Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.
+A1 ) Insertion Sort Aşamaları
+       
+        [22,27,16,2,18,6]
+
+Step 1  [22,27,16,2,18,6]
+Step 2  [16,22,27,2,18,6]
+Step 3  [2,16,22,27,18,6]
+Step 4  [2,16,18,27,22,6]
+Step 5  [2,16,18,22,27,6]
+Step 6  [2,6,16,18,22,27]
+
+
+Q2) Big- O gösterimini yazınız.
+
+A2) Başlangıçta n adım, daha sonra azalarak n-1 adım daha sonra n-2 adım olara devam eder.Burada 1 den n'e kadar olan sayıları gibi düşünebiliriz.
+Yani (n(n+1))/2 = (n^2 + n)/2 
+Buradan hareketle Big-O notation n^2 olur. 
+
+Big-O notation gösterimi: O(n^2) 
+
+Q3) Time complexity:
+Average case, Worst case, Best case
+
+A3)Time complexity: O (n^2)
+Worst case: O(n^2)
+Best Case: O(n)
+Average case : O(n^2)
+
+
+Q4) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer yazınız.
+
+A4) [2,6,16,18,22,27]
+  18 WORST case kapsamına girer.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sorta göre ilk dört adımını yazınız.
+  
+  Step 1  [3,7,5,8,2,9,4,15,6]
+  Step2   [3,5,7,8,2,9,4,15,6]
+  Step3   [2,3,5,7,8,9,4,15,6]
+  Step4   [2,3,4,5,7,8,9,15,6] 
+  
